@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149823635613",
+    "firebase_url": "https://bosnianhistoryquiz.firebaseio.com",
+    "project_id": "bosnianhistoryquiz",
+    "storage_bucket": "bosnianhistoryquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149823635613:android:37dd73de9a756d9a",
+        "android_client_info": {
+          "package_name": "com.example.irhad.historijabosne"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149823635613-8rs1b40qdm5s7aoj6k6522u001knvkid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.irhad.historijabosne",
+            "certificate_hash": "36fe2d40ef2f86628cf3b892accb805c1827ef7f"
+          }
+        },
+        {
+          "client_id": "149823635613-oe4iv2m0lihakqcrcfrtqd9tdhla40sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs3caguGldfGduwPZc-vTIcmv-qIPZ2n8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149823635613-oe4iv2m0lihakqcrcfrtqd9tdhla40sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:paddingRight="10dp"
+        android:textAlignment="textEnd"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/crvena"
+        android:onClick="exit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnKviz"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kviz"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:tag="1"
+            android:background="@drawable/button_background"
+            android:textColor="@color/bijela"
+            android:textSize="18dp"
+            android:onClick="btnOptions"/>
+
+        <Button
+            android:id="@+id/btnHighScore"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:tag="2"
+            android:background="@drawable/button_background"
+            android:textColor="@color/bijela"
+            android:textSize="18dp"
+            android:onClick="btnOptions"/>
+
+        <Button
+            android:id="@+id/btnCredits"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/creditbtn"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:tag="3"
+            android:background="@drawable/button_background"
+            android:textColor="@color/bijela"
+            android:textSize="18dp"
+            android:onClick="btnOptions"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

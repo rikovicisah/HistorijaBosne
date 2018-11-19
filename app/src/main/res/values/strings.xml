@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Historija Bosne</string>
+    <string name="spasi_Rezultat">Spasi rezultat</string>
+    <string name="ime">Ime</string>
+    <string name="unesiteIme">Unesite vase ime</string>
+    <string name="kviz">Kviz</string>
+    <string name="score">High Score</string>
+    <string name="creditbtn">Credits</string>
+    <string name="exit">Exit</string>
+    <string name="credits">
+        author : wtugkzt@gmail.com \n
+        sound effects obtained from \n
+        https://www.zapsplat.com
+    </string>
+</resources>
